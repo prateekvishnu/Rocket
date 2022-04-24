@@ -1,0 +1,17 @@
+# Namespaced project name that the target belongs to
+project: rocket
+
+# Target name (should be unique within the project)
+target: rocket
+
+# Base image to run the binary in.
+image: ghcr.io/prateekvishnu/rocket:latest
+
+# List of commands used to test the target
+cmds:
+
+    # Command used to start the target, "@@" is the input file
+    # (when "@@" is omitted Mayhem defaults to stdin inputs)
+    - cmd: /uri-parsing 
+    - cmd: /uri-roundtrip
+

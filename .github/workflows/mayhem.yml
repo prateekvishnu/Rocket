@@ -7,6 +7,9 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
+  PARSING_MAYHEMFILE: parsing.mayhemfile
+  ROUNDTRIP_MAYHEMFILE: roundtrip.mayhemfile
+
 
 jobs:
   build:

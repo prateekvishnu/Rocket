@@ -5,7 +5,7 @@ project: rocket
 target: rocket
 
 # Base image to run the binary in.
-image: ghcr.io/prateekvishnu/rocket:latest
+# image: ghcr.io/prateekvishnu/rocket:latest
 
 # List of commands used to test the target
 cmds:
